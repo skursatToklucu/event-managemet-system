@@ -18,8 +18,8 @@ import { Registration } from './registrations/registration.entity';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: '8823',
-      database: 'EventManagementDb',
+      password: '',
+      database: '',
       entities: [User, Event, Registration],
       synchronize: true
     }), TypeOrmModule.forFeature([User]), TypeOrmModule.forFeature([Event]), TypeOrmModule.forFeature([Registration])
