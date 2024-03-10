@@ -24,13 +24,25 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project is a comprehensive Event Management System built using the [Nest](https://github.com/nestjs/nest) framework, a framework for building efficient, reliable and scalable server-side applications with TypeScript. The system allows users to create, manage, and participate in events. It integrates user authentication, event management, and registration functionalities, offering a complete solution for event organizers and attendees. 
 
 ## Installation
+
+To set up the project environment, follow these steps:
 
 ```bash
 $ npm install
 ```
+
+## Features
+
+User Management: Secure registration and authentication system for users, including password hashing and JWT token generation for secure sessions.
+Event CRUD Operations: Users can create, read, update, and delete events, providing a comprehensive management system for event organizers.
+Registration Management: Allows participants to register for events, managing their registrations within the system.
+Swagger Documentation: Fully documented API endpoints with Swagger, facilitating easy testing and integration for developers.
+PostgreSQL Integration: Utilizes PostgreSQL for robust data storage, ensuring data integrity and support for complex queries.
+Security: Implements best practices for security, including secure password storage, JWT for authentication, and protection against common vulnerabilities.
+
 
 ## Running the app
 
@@ -45,29 +57,4 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
